@@ -2,7 +2,9 @@
 body{
     background-color: #f6f5f7;
     font-family: 'Montserrat',sans-serif;
-}
+    background-image: url("./img.jpg");
+    /* background-size: cover;*/
+} 
 #contenedor {
     background-color: white;
     width: 700px;
@@ -23,7 +25,7 @@ body{
     float: left;
 }
 #detalle {
-    background-color: #ff416c; 
+    background-color: #41ffb0; 
     color: white;
     width: 50%;
     height: 100%;
@@ -46,17 +48,25 @@ input {
 }
 button {
     font-size: 15px;
-      font-weight: bold;
-      padding: 12px 45px;
-      border-radius: 30px;
-      background-color: #FF416C;
-      border: 1px solid #FF416C;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      letter-spacing: 1px;/*Espacio entre letras*/
-      transition: transform 20ms ease-in;
+    font-weight: bold;
+    padding: 12px 45px;
+    border-radius: 30px;
+    background-color: #adff41;
+    border: 1px solid #d6ff41;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;/*Espacio entre letras*/
+    transition: transform 20ms ease-in;
   }
   button:active {
 	transform: scale(0.95);/*Transforma la escala del botón a 0.95 (más chico)*/
+}
+#peso{
+    margin: auto;
+    text-align: center;
+    color:#41ffb0;
+}
+#msg{
+    color:#41ffb0;
 }
   

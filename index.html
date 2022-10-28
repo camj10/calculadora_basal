@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
     </head>
     <body>
         <div id="contenedor">
@@ -9,9 +10,12 @@
                 <div class="contenido">
                     <h1>Hidratación basal</h1>
                     <p>Ingrese el dato del paciente</p>
-                    <input type="number" placeholder="Peso en kg">
-                    <button>Calcular</button>
-                    <p>1600 cc</p>
+                    <input class="item" id="peso" type="number" placeholder="Peso en kg" value="">
+                    <p class="item" id="error" > Favor ingrese el peso</p>
+                    <button class="item" id="calcular"><i>Calcular</i></button>
+                    <p class="item mensaje" id="msg"></p>
+                    <p class="item resultado" id="flujo"></p>
+                    <p class="item resultado" id="mantenimiento"></p>
                     <!-- <span>1600 kg</span> --> 
                 </div>
             </div>
